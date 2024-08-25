@@ -1,0 +1,145 @@
+.name{
+    text-align: center;
+}
+#dot1{
+    display: inline;
+    width: 26px;
+    height: 26px;
+    margin-left: -8px;
+    margin-right: -3px;
+}
+#p{
+    display: inline;
+    width: auto;
+    color: #3C3030;
+    font-family: "Iowan Old Style";
+    font-size: 35.957px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+}
+.searchbox{
+    display: inline-flex;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+#search{
+    display: inline;
+    width: 267px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('search.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+#button{
+    margin-left: -8px;
+    height: 43px;
+    width: 50px;
+    display: inline;
+    background-color: #D02424;
+    color: #ccc;
+    border: #ccc;
+}
+#button:hover{
+    background-color: rgb(250, 119, 119);
+    color: black;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+h2{
+    text-align: left;
+    color:  #D02424;
+    font-family: "Inria Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: -0.4px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.articles{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    margin-right: 80px;
+    margin-bottom: 96px;
+    gap: 16px;
+}
+#pic{
+    width: 364px;
+    height: 180px;
+}
+h3{
+    text-align: left;
+    width: 364px;
+    color: #3C3030;
+    font-family: "Inknut Antiqua";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 21.6px */
+    letter-spacing: -0.72px;
+}
+p{
+    text-align: left;
+    width: 364px;
+    color: #3C3030;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    opacity: 0.8;
+}
+span{
+    text-align: left;
+    width: 364px;
+    color: #3C3030;
+    font-family: "Inria Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+}
+a{
+    color: #D02424;
+    font-family: Impact;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; 
+    text-decoration-line: underline;
+}
+#dot2{
+    width: 10px;
+    height: 10px;
+    margin-left: -3px;
+    margin-right: -3px;
+}
+#e{
+    display: inline;
+    color: #3C3030;
+    font-family: "Iowan Old Style";
+    font-size: 15.095px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
